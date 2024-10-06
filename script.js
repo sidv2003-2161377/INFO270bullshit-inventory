@@ -63,10 +63,10 @@ function showDetails(day) {
         <ul>
             ${bullshitData[day].encountered.map(item => `<li>${item}</li>`).join('')}
         </ul>
-        <p><strong>Created:</strong> ${bullshitData[day].created}</p>
-        <p><strong>Debunked:</strong> ${bullshitData[day].debunked || "No debunking this day."}</p>
+        <p><strong>Created:</strong>${bullshitData[day].created || "No bullshit created today."}</p>
+        <p><strong>Debunked:</strong> ${bullshitData[day].debunked || "No debunking today."}</p>
     `;
     
-    detailsSection.style.display = 'block'; // Show the details
+    detailsSection.style.display = 'block'; 
 }
 
