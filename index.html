@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullshit Inventory Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bullshit Inventory Calendar</h1>
+        <p>A week in the life of bullshit encounters, creations, and debunking</p>
+    </header>
+    <main>
+        <div class="calendar">
+            <div class="day" onclick="showDetails('monday')">Monday</div>
+            <div class="day" onclick="showDetails('tuesday')">Tuesday</div>
+            <div class="day" onclick="showDetails('wednesday')">Wednesday</div>
+            <div class="day" onclick="showDetails('thursday')">Thursday</div>
+            <div class="day" onclick="showDetails('friday')">Friday</div>
+        </div>
+        <section id="details" class="details">
+            <h2>Details</h2>
+            <div id="detail-content"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Siddanth Varanasi | 10/07/2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
