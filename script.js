@@ -69,3 +69,4 @@ function showDetails(day) {
     
     detailsSection.style.display = 'block'; // Show the details
 }
+
