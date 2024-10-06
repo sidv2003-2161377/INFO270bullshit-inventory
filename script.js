@@ -9,8 +9,8 @@ const bullshitData = {
     },
     tuesday: {
         encountered: [
-            "Saw a viral post on social media stating that drinking lemon water every morning cures all diseases.",
-            "A friend insisted that skipping breakfast was a guaranteed way to lose weight quickly."
+            "A friend insisted that drinking lemon water every morning cures all diseases.",
+            "Saw a viral post on instagram stating that skipping breakfast was a guaranteed way to lose weight quickly."
         ],
         created: "I exaggerated my weekend plans, saying I was busy the whole day when I went grocery shopping and sat at home.",
         debunked: "I corrected my friend about the health benefits of lemon water, explaining that while it’s refreshing, it’s not a miracle cure."
