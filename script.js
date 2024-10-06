@@ -17,7 +17,7 @@ const bullshitData = {
     },
     wednesday: {
         encountered: [
-            "A classmate insisted that taking cold showers is always good for your metabolism"
+            "A classmate insisted that taking cold showers is always good for your metabolism."
         ],
         created: "I claimed to have read three chapters for a class when I had only skimmed through one.",
         debunked: "I debunked my classmate's metabolism theory by showing him proof that research on this is very limited and so all sources mention taking this with a grain of salt."
@@ -38,7 +38,7 @@ const bullshitData = {
     },
     saturday: {
         encountered: [
-            "A classmate said they discovered a study technique that guarantees higher grades without studying harder.",
+            "A classmate said they discovered a study technique that guarantees higher grades without studying harder."
         ],
         created: "I told my friends I’d become a morning person, but I slept in and missed breakfast on this day.",
         debunked: ""
@@ -63,7 +63,7 @@ function showDetails(day) {
         <ul>
             ${bullshitData[day].encountered.map(item => `<li>${item}</li>`).join('')}
         </ul>
-        <p><strong>Created:</strong> ${bullshitData[day].created}</p>
+        <p><strong>Created:</strong> ${bullshitData[day].created || "No creations this day."}</p>
         <p><strong>Debunked:</strong> ${bullshitData[day].debunked || "No debunking this day."}</p>
     `;
     
