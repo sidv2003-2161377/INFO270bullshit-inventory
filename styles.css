@@ -99,5 +99,5 @@ footer {
 
 .calendar {
     width: 100%; /* Make calendar take the full width of the container */
-    max-width: 900px; /* Set a maximum width for the calendar */
+    /* Set a maximum width for the calendar */
 }
