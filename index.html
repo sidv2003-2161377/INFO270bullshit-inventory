@@ -13,20 +13,23 @@
         <p>A week in the life of bullshit encounters, creations, and debunking</p>
     </header>
     <main>
-        <div class="calendar">
-            <div class="day" onclick="showDetails('monday')">Monday</div>
-            <div class="day" onclick="showDetails('tuesday')">Tuesday</div>
-            <div class="day" onclick="showDetails('wednesday')">Wednesday</div>
-            <div class="day" onclick="showDetails('thursday')">Thursday</div>
-            <div class="day" onclick="showDetails('friday')">Friday</div>
-            <div class="day" onclick="showDetails('saturday')">Saturday</div>
-            <div class="day" onclick="showDetails('sunday')">Sunday</div>
+        <div class="calendar-container"> <!-- New container for centering -->
+            <div class="calendar">
+                <div class="day" onclick="showDetails('monday')">Monday</div>
+                <div class="day" onclick="showDetails('tuesday')">Tuesday</div>
+                <div class="day" onclick="showDetails('wednesday')">Wednesday</div>
+                <div class="day" onclick="showDetails('thursday')">Thursday</div>
+                <div class="day" onclick="showDetails('friday')">Friday</div>
+                <div class="day" onclick="showDetails('saturday')">Saturday</div>
+                <div class="day" onclick="showDetails('sunday')">Sunday</div>
+            </div>
         </div>
         <section id="details" class="details">
             <h2>Details</h2>
             <div id="detail-content"></div>
         </section>
     </main>
+    
     <footer>
         <p>Created by Siddanth Varanasi | 10/07/2024</p>
     </footer>
